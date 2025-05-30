@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app:cached
+      - /app/node_modules
+    ports:
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+    environment:
+      EXPO_DEVTOOLS_LISTEN_ADDRESS: "0.0.0.0"
+      EAS_ENABLE_PROMPTS: "false"
+    tty: true
+    working_dir: /app
+    command: ["pnpm", "start", "--", "--tunnel"]
