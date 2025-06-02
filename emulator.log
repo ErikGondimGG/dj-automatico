@@ -1,22 +1,24 @@
-[18348:22460:20250530,155846.716:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-INFO    | Storing crashdata in: C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db, detection is enabled for process: 24604
+[328:22136:20250602,081352.830:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,081352.831:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+INFO    | Storing crashdata in: C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db, detection is enabled for process: 32132
 INFO    | Android emulator version 34.2.15.0 (build_id 11906825) (CL:N/A)
 INFO    | Found systemPath C:\Users\erik.gondim\AppData\Local\Android\Sdk\system-images\android-31\google_apis_playstore\x86_64\
-[25012:9492:20250530,155846.861:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,081353.040:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,081353.040:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
 WARNING | Please update the emulator to one that supports the feature(s): Vulkan
 added library vulkan-1.dll
 initialize: Supports id properties, got a vulkan device UUID
-INFO    | Storing crashdata in: C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db, detection is enabled for process: 28468
+INFO    | Storing crashdata in: C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db, detection is enabled for process: 19992
 INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
 INFO    | IPv4 server found: 192.168.1.1
-INFO    | Ignore IPv6 address: 49:d8d1:e01:0:2040:d8d1:e01:0
-INFO    | Ignore IPv6 address: 49:d8d1:e01:0:2040:d8d1:e01:0 (2x)
-INFO    | Ignore IPv6 address: 84f:d8d1:e01:0:2040:d8d1:e01:0
-INFO    | Ignore IPv6 address: 84f:d8d1:e01:0:2040:d8d1:e01:0 (2x)
-INFO    | Ignore IPv6 address: 1055:d8d1:e01:0:2040:d8d1:e01:0
-INFO    | Ignore IPv6 address: 1055:d8d1:e01:0:2040:d8d1:e01:0 (2x)
-INFO    | Ignore IPv6 address: f85a:d8d1:e01:0:2040:d8d1:e01:0
-INFO    | Ignore IPv6 address: f85a:d8d1:e01:0:2040:d8d1:e01:0 (2x)
+INFO    | Ignore IPv6 address: 4f:2e19:3302:0:4f:2e19:3302:0
+INFO    | Ignore IPv6 address: 4f:2e19:3302:0:4f:2e19:3302:0 (2x)
+INFO    | Ignore IPv6 address: 585f:2e19:3302:0:4f:2e19:3302:0
+INFO    | Ignore IPv6 address: 585f:2e19:3302:0:4f:2e19:3302:0 (2x)
+INFO    | Ignore IPv6 address: 6065:2e19:3302:0:4f:2e19:3302:0
+INFO    | Ignore IPv6 address: 6065:2e19:3302:0:4f:2e19:3302:0 (2x)
+INFO    | Ignore IPv6 address: 686b:2e19:3302:0:4f:2e19:3302:0
+INFO    | Ignore IPv6 address: 686b:2e19:3302:0:4f:2e19:3302:0 (2x)
 INFO    | Critical: 
 INFO    | Warning: 
 INFO    | Warning:  (6x)
@@ -27,30 +29,31 @@ android_startOpenglesRenderer: gpu infoGPU #1
   Make: 8086
   Model: Intel(R) UHD Graphics
   Device ID: 46a3
-I0530 15:58:47.839454   28076 HealthMonitor.cpp:279] HealthMonitor disabled.
+INFO    | Attempting to send crashreport 85065181-0242-48dc-83f4-61ef3aa7ab17 to https://clients2.google.com/cr/report
+I0602 08:13:54.268412    5188 HealthMonitor.cpp:279] HealthMonitor disabled.
 createGlobalVkEmulation:995 Selecting Vulkan device: Intel(R) UHD Graphics
-I0530 15:58:48.339823   28076 VkCommonOperations.cpp:1276] Initializing VkEmulation features:
-I0530 15:58:48.339838   28076 VkCommonOperations.cpp:1277]     glInteropSupported: true
-I0530 15:58:48.339840   28076 VkCommonOperations.cpp:1278]     useDeferredCommands: true
-I0530 15:58:48.339843   28076 VkCommonOperations.cpp:1280]     createResourceWithRequirements: true
-I0530 15:58:48.339845   28076 VkCommonOperations.cpp:1281]     useVulkanComposition: false
-I0530 15:58:48.339846   28076 VkCommonOperations.cpp:1282]     useVulkanNativeSwapchain: false
-I0530 15:58:48.339847   28076 VkCommonOperations.cpp:1283]     enable guestRenderDoc: false
-I0530 15:58:48.339848   28076 VkCommonOperations.cpp:1284]     ASTC LDR emulation mode: 2
-I0530 15:58:48.339850   28076 VkCommonOperations.cpp:1285]     enable ETC2 emulation: true
-I0530 15:58:48.339851   28076 VkCommonOperations.cpp:1286]     enable Ycbcr emulation: false
-I0530 15:58:48.339852   28076 VkCommonOperations.cpp:1287]     guestUsesAngle: false
-I0530 15:58:48.339853   28076 VkCommonOperations.cpp:1288]     useDedicatedAllocations: false
-I0530 15:58:48.349736   28076 FrameBuffer.cpp:506] Graphics Adapter Vendor Google (Intel)
-I0530 15:58:48.349750   28076 FrameBuffer.cpp:507] Graphics Adapter Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics)
-I0530 15:58:48.349751   28076 FrameBuffer.cpp:508] Graphics API Version OpenGL ES 3.0 (4.5.0 - Build 31.0.101.4032)
-I0530 15:58:48.349753   28076 FrameBuffer.cpp:509] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_shader_framebuffer_fetch GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
-I0530 15:58:48.349755   28076 FrameBuffer.cpp:510] Graphics Device Extensions N/A
+I0602 08:13:55.558757    5188 VkCommonOperations.cpp:1276] Initializing VkEmulation features:
+I0602 08:13:55.558770    5188 VkCommonOperations.cpp:1277]     glInteropSupported: true
+I0602 08:13:55.558772    5188 VkCommonOperations.cpp:1278]     useDeferredCommands: true
+I0602 08:13:55.558912    5188 VkCommonOperations.cpp:1280]     createResourceWithRequirements: true
+I0602 08:13:55.558915    5188 VkCommonOperations.cpp:1281]     useVulkanComposition: false
+I0602 08:13:55.558916    5188 VkCommonOperations.cpp:1282]     useVulkanNativeSwapchain: false
+I0602 08:13:55.558918    5188 VkCommonOperations.cpp:1283]     enable guestRenderDoc: false
+I0602 08:13:55.558919    5188 VkCommonOperations.cpp:1284]     ASTC LDR emulation mode: 2
+I0602 08:13:55.558920    5188 VkCommonOperations.cpp:1285]     enable ETC2 emulation: true
+I0602 08:13:55.558921    5188 VkCommonOperations.cpp:1286]     enable Ycbcr emulation: false
+I0602 08:13:55.558922    5188 VkCommonOperations.cpp:1287]     guestUsesAngle: false
+I0602 08:13:55.558923    5188 VkCommonOperations.cpp:1288]     useDedicatedAllocations: false
+I0602 08:13:55.559234    5188 FrameBuffer.cpp:506] Graphics Adapter Vendor Google (Intel)
+I0602 08:13:55.559238    5188 FrameBuffer.cpp:507] Graphics Adapter Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics)
+I0602 08:13:55.559240    5188 FrameBuffer.cpp:508] Graphics API Version OpenGL ES 3.0 (4.5.0 - Build 31.0.101.4032)
+I0602 08:13:55.559241    5188 FrameBuffer.cpp:509] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_shader_framebuffer_fetch GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+I0602 08:13:55.559243    5188 FrameBuffer.cpp:510] Graphics Device Extensions N/A
 INFO    | Sending adb public key [QAAAAD0m9ynr3kMJlTccg4BmB+VGlxMZ/3YyZUKILLaWK44K6MuC38fyvsMOyKh9i84OtlL3EGYGdQzxze5TqL/Z1J8acS08D2APIf05//bn3ZgIo+uCCK4AsQiMuqed8fl7hL4MaglI0coBbPKrkIf+Y1yegy71Qn3Auys7R0D/l74kzm6CWzYZuRjeQRMiVYtTJWNS6Pds0xx0Zm/xpBBqHvZPGtf/W8DS0z4tW1d0bhsiQCbndjhfClyTrUC5nSQZH3PPPuXS8mcXP9dfgRHT+i3lLHIqT1cYZOV8Tl8aO967f+2ZCuvJ4AKiZHYCLT+Ni+U01YphyfOp74uP1bexAmSa+VXe9Wdyn+VYXr7fR+cpiPFyFqA+8UJQul477Z27oRNMuUfeqI3MMDwGB6+ZFnwl0AsfbGI2MmPz3UCOrCZaLZQAreFC5pWj0Xwww5bHjAub6zd20i9elvidHmeYrOHYigxwgVKlJxS/mAguFc7TVHzKvE3Y5DG3D0rON/MctU7XpcBzRtcUKs5PnteuXqsgb2RP2HOmOJyn2e7m6RC5rEQmgbnKuL0Ch5Ab3Ez5VSNrGFV2pmZ412ZtcGRORcj6LhK+0/ICCtKVeBATKBbkmLX/Z4qa1dISD7socqqDRK4kjpAFplJyqfrKYSbRLPswOq/WxsCRBFwpC4r886qSNCnPkwEAAQA= @unknown]
 WHPX on Windows 10.0.22631 detected.
 Windows Hypervisor Platform accelerator is operational
-netsimd I 05-30 18:58:48.788 rust_main.rs:96 - netsim artifacts path: "C:\\Users\\ERIK~1.GON\\AppData\\Local\\Temp\\netsimd"
-netsimd I 05-30 18:58:48.792 rust_main.rs:99 - NetsimdArgs {
+netsimd I 06-02 11:13:56.850 rust_main.rs:96 - netsim artifacts path: "C:\\Users\\ERIK~1.GON\\AppData\\Local\\Temp\\netsimd"
+netsimd I 06-02 11:13:56.852 rust_main.rs:99 - NetsimdArgs {
     fd_startup_str: None,
     no_cli_ui: true,
     no_web_ui: true,
@@ -72,68 +75,81 @@ INFO    | Monitoring duration of emulator setup.
 WARNING | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
 INFO    | Using security allow list from: C:\Users\erik.gondim\AppData\Local\Android\Sdk\emulator\lib\emulator_access.json
 WARNING | *** Basic token auth should only be used by android-studio ***
-INFO    | The active JSON Web Key Sets can be found here: C:\Users\erik.gondim\AppData\Local\Temp\avd\running\28468\jwks\9f20aa48-0615-4ca8-9b1d-795d8fea742e\active.jwk
-INFO    | Scanning C:\Users\erik.gondim\AppData\Local\Temp\avd\running\28468\jwks\9f20aa48-0615-4ca8-9b1d-795d8fea742e for jwk keys.
+INFO    | The active JSON Web Key Sets can be found here: C:\Users\erik.gondim\AppData\Local\Temp\avd\running\19992\jwks\f5041b50-d633-4ff9-aec2-18f987a6e179\active.jwk
+INFO    | Scanning C:\Users\erik.gondim\AppData\Local\Temp\avd\running\19992\jwks\f5041b50-d633-4ff9-aec2-18f987a6e179 for jwk keys.
 INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
-INFO    | Advertising in: C:\Users\erik.gondim\AppData\Local\Temp\avd\running\pid_28468.ini
-I0530 15:58:49.177689   20088 FrameBuffer.cpp:2853] setDisplayConfigs w 1080 h 2280 dpiX 440 dpiY 440
-I0530 15:58:49.177924   20088 FrameBuffer.cpp:2866] setDisplayActiveConfig 0
+INFO    | Advertising in: C:\Users\erik.gondim\AppData\Local\Temp\avd\running\pid_19992.ini
+I0602 08:13:56.693166   32924 FrameBuffer.cpp:2853] setDisplayConfigs w 1080 h 2280 dpiX 440 dpiY 440
+I0602 08:13:56.693362   32924 FrameBuffer.cpp:2866] setDisplayActiveConfig 0
 INFO    | Activated packet streamer for bluetooth emulation
 WARNING | Cold boot: requested by the user
+INFO    | Report 85065181-0242-48dc-83f4-61ef3aa7ab17 is available remotely as: 5540326bb85234a3.
 INFO    | Critical: 
-INFO    | Critical: 
-INFO    | Boot completed in 50714 ms
+INFO    | Boot completed in 51662 ms
 INFO    | Increasing screen off timeout, logcat buffer size to 2M.
 INFO    | IPv4 server found: 192.168.1.1
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0 (2x)
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0 (2x)
 INFO    | IPv4 server found: 192.168.1.1
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0 (2x)
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0 (2x)
 INFO    | IPv4 server found: 192.168.1.1
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e02b:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: e831:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0
-INFO    | Ignore IPv6 address: f037:37ad:e01:0:23:37ad:e01:0 (2x)
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0
-[18348:16096:20250530,160846.725:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[18348:16096:20250530,160846.738:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[18348:16096:20250530,160846.739:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:23048:20250530,160846.864:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:23048:20250530,160846.864:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:23048:20250530,160846.865:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[18348:22460:20250530,161346.717:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:9492:20250530,161346.858:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-E0530 16:19:37.656732   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:246
-E0530 16:20:49.172992   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:337
-E0530 16:22:50.388610   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:341
-INFO    | Ignore IPv6 address: d83d:37ad:e01:0:23:37ad:e01:0 (2x)
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 2019:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 7829:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0
+INFO    | Ignore IPv6 address: 802f:b704:3302:0:2019:b704:3302:0 (2x)
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0
+[328:4832:20250602,082352.770:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:4832:20250602,082352.771:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:4832:20250602,082352.815:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:4832:20250602,082352.815:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:4832:20250602,082352.816:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:4832:20250602,082352.817:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.945:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.945:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.948:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.948:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.949:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:22656:20250602,082352.949:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,082852.713:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,082852.713:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,082852.933:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,082852.934:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,084352.727:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,084352.728:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,084352.947:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,084352.947:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,085852.728:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,085852.728:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,085852.946:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,085852.946:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,091352.746:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,091352.747:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,091352.952:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,091352.960:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+INFO    | Ignore IPv6 address: 8835:b704:3302:0:2019:b704:3302:0 (2x)
 INFO    | Warning: 
 INFO    | Warning: 
 ERROR   | Error reading vhal json
-E0530 16:24:24.354867   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:345
-[18348:22460:20250530,162846.721:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:9492:20250530,162846.859:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[18348:22460:20250530,164346.732:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-[25012:9492:20250530,164346.857:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
-E0530 16:48:03.878901   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:383
-E0530 16:48:39.618189   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:387
-E0530 16:48:42.514872   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:391
-E0530 16:49:42.477406   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:395
-E0530 16:50:42.627816   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:399
-E0530 16:52:42.008418   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:403
-E0530 16:52:42.791787   21400 FrameBuffer.cpp:3553] Failed to find ColorBuffer:407
+[328:22136:20250602,092852.742:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,092852.743:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,092852.956:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,092852.957:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,094352.750:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[328:22136:20250602,094352.751:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,094352.968:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\178af368-e9a8-4586-a465-65da4cea5dc6: O sistema não pode encontrar o arquivo especificado. (2)
+[19880:24872:20250602,094352.969:ERROR filesystem_win.cc:130] GetFileAttributes C:\Users\ERIK~1.GON\AppData\Local\Temp\\AndroidEmulator\emu-crash-34.2.15.db\attachments\85065181-0242-48dc-83f4-61ef3aa7ab17: O sistema não pode encontrar o arquivo especificado. (2)
