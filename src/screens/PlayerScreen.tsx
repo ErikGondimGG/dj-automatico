@@ -9,12 +9,9 @@ const PlayerScreen = () => {
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text style={{ fontSize: 24 }}>Seu BPM: {bpm}</Text>
       <Text style={{ fontSize: 18, marginTop: 20 }}>Música Atual: ...</Text>
-      <Button
-        title="Sincronizar com Spotify"
-        onPress={() => {
-          /* Lógica aqui */
-        }}
-      />
+      <Button title="Sincronizar com Spotify" onPress={() => {}} />
     </View>
   );
 };
+
+export default PlayerScreen;

@@ -17,7 +17,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.djautomatico"
+      "package": "com.anonymous.djautomatico",
+      "permissions": ["android.permission.HIGH_SAMPLING_RATE_SENSORS"]
     },
     "web": {
       "bundler": "metro",
