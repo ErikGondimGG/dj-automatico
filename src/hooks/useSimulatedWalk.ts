@@ -8,8 +8,8 @@ export const useSimulatedWalk = () => {
   });
 
   useEffect(() => {
-    const frequency = 1; // Hz (passos/segundo) ~108 BPM
-    const amplitude = 1; // Intensidade do movimento
+    const frequency = 0.3; // Hz (passos/segundo) ~108 BPM
+    const amplitude = 0.1; // Intensidade do movimento
     let time = 0;
 
     const interval = setInterval(() => {
@@ -33,6 +33,8 @@ export const useSimulatedWalk = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  // console.log(accelerationData);
 
   return accelerationData;
 };
