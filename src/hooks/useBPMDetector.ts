@@ -17,8 +17,10 @@ export const useBPMDetector = () => {
 
     const handleAcceleration = (acc: AccelerometerMeasurement) => {
       const now = Date.now();
-      // const { x, y, z } = acc;
-      const { x, y, z } = simulatedAccData;
+      const { x, y, z } = acc;
+      // const { x, y, z } = simulatedAccData;
+
+      // console.log("acc >>", acc);
 
       // 1. Calcular a magnitude do vetor
       const magnitude = Math.sqrt(x * x + y * y + z * z);
@@ -61,7 +63,7 @@ export const useBPMDetector = () => {
 
       if (
         currentSample > threshold &&
-        currentSample > previousSample &&
+        // currentSample > previousSample &&
         now - lastPeakRef.current > REFRACTORY_PERIOD
       ) {
         // console.log("interval >>", lastPeakRef.current);
@@ -108,7 +110,7 @@ export const useBPMDetector = () => {
     return () => subscription.remove();
   }, [simulatedAccData]);
 
-  // console.log(bpm);
+  console.log(bpm);
 
   return bpm;
 };

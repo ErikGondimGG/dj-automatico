@@ -1,16 +1,16 @@
 import WalkGraph from "@/src/components/graficos/walkGraph";
+import { useAccelerometer } from "@/src/hooks/useAccelerometer";
 import { useSimulatedWalk } from "@/src/hooks/useSimulatedWalk";
 import React from "react";
 import { View } from "react-native";
 
 const GraficosMovimento = () => {
   const simulatedAccData = useSimulatedWalk();
-
-  // Simulação de dados (substituir por dados reais)
+  const accData = useAccelerometer();
 
   return (
     <View style={{ flex: 1 }}>
-      <WalkGraph accData={simulatedAccData} />
+      <WalkGraph accData={accData} />
     </View>
   );
 };
